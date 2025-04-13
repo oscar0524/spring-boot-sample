@@ -23,12 +23,14 @@ spring-boot-sample/
 ## 快速開始
 
 1. 複製專案
+
 ```bash
 git clone https://github.com/oscar0524/spring-boot-sample.git
 cd spring-boot-sample
 ```
 
 2. 執行專案（使用 Maven Wrapper）
+
 ```bash
 ./mvnw clean install
 ./mvnw spring-boot:run -pl modules/webapi
@@ -50,11 +52,13 @@ cd spring-boot-sample
 - `parent-dev.properties`: 父層開發環境設定
 
 可用的設定檔：
+
 - dev (預設)
 - prod
 - test
 
 切換環境：
+
 ```bash
 ./mvnw spring-boot:run -pl modules/webapi -Dspring.profiles.active=prod
 ```
